@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__buttons {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, min-content);
+    column-gap: .95em;
+}
+
+@media (width <= 1366px) {
+    .header__buttons {
+        display: none;
+    }
+}
