@@ -6,9 +6,19 @@
 }
 
 @media (width <= 1366px) {
-    .search-form_hidden {
-        display: none;
+    .search-form {
+        transition: .25s linear;
+        position: absolute;
+        left: 35%;
     }
+}
+
+.search-form_hidden {
+    top: -10em;
+}
+
+.search-form_visible {
+    top: 1.5em; 
 }
 
 .search-form__button {
@@ -22,9 +32,9 @@
 }
 
 .search-form__input {
-    color: var(--white);
+    color: var(--dark);
     background-color: transparent;
-    border-bottom: 1px solid var(--white);
+    border-bottom: 1px solid var(--dark);
     opacity: 85%;
     padding-bottom: .15em;
     height: 1.25em;
@@ -34,7 +44,13 @@
 
 @media (width <= 1366px) {
     .search-form__input {
+        color: var(--white);
+        border-bottom: 1px solid var(--white);
         width: 30vw;
+    }
+
+    .search-form__image {
+        fill: var(--white);
     }
 }
 

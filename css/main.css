@@ -76,9 +76,10 @@
 }
 
 .registr {
+    color: var(--white);
     font-weight: 300;
     letter-spacing: .045em;
-    background-color: var(--white);
+    background-color: var(--dark);
     height: 1.85em;
     width: 5em;
 }
@@ -140,7 +141,7 @@
 .hamburger__item {
     position: absolute;
     display: inline-block;
-    background-color: var(--white);
+    background-color: var(--dark);
     width: 2.25em;
     height: .035em;
     transition: .5s linear;
@@ -164,18 +165,18 @@
 }
 
 .hamburger__top-item_animated {
+    background-color: var(--white);
     animation:  hamburgerTop .5s forwards;
-    transition: .5s linear;
 }
 
 .hamburger__middle-item_animated {
+    background-color: var(--white);
     animation:  hamburgerMiddle .5s forwards;
-    transition: .5s linear;
 }
 
 .hamburger__bottom-item_animated {
+    background-color: var(--white);
     animation:  hamburgerBottom .5s forwards;
-    transition: .5s linear;
 }
 
 @media (width <= 1366px) {

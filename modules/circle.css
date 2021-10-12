@@ -1,10 +1,18 @@
 .circle {
+    display: none;
     border-radius: 50%;
     position: absolute;
-    top: -90em;
-    left: 0%;
+    top: -100em;
+    left: 65%;
     width: 195%;
     height: 100em;
     background-color: rgba(0, 0, 0, .925);
+    transition: .15s linear;
     z-index: -10;
+}
+
+@media (width <= 1366px) {
+    .circle {
+        display: block;
+    }
 }

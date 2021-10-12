@@ -4,3 +4,8 @@
     transition: .25s linear;
     padding: 5% 15%;
 }
+
+.pop-up-menu__link {
+    color: var(--white);
+    z-index: 10;
+}
