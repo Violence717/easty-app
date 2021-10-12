@@ -11,7 +11,7 @@
     display: grid;
     align-items: center;
     grid-template-columns: repeat(2, min-content);
-    column-gap: .95em;
+    column-gap: 1.25em;
 }
 
 @media (width <= 1366px) {
